@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav li{
+    display: none;
+}
+nav{
+    /* border: 2px solid black; */
+    height: 100px;
+}
+.one{
+    /* border: 2px solid black;  */
+    height: 400px;
+    width: 300px;
+    float: right;
+    margin-right: -27px;
+    background-color: #F4ECE6;
+    
+
+}
+nav h3{
+    margin-left: 51px;
+    margin-top: -22px;
+    font-size: 21px;
+}
+nav p{
+    margin-left: 22px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+#sq{
+    margin-top: 31px;
+    margin-left: 22px;
+}
+.one img{
+    width: 143px;
+    height: 148px;
+    border-radius: 70px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.one h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.line1{
+    width: 59px;
+    border: none;
+    height: 3px;
+    background-color: #0050FF;
+    margin-left: 119px;
+    margin-top: 16px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn1{
+    margin-top: 30px;
+    width: 122px;
+    height: 32px;
+    border-radius: 23px;
+    background-color: #0050FF;
+    color: white;
+    border: none;
+}
+.btn2{
+    margin-top: 30px;
+    width: 122px;
+    height: 32px;
+    border-radius: 23px;
+    background-color: #F4ECE6;
+    border: 1px solid black;
+}
+
+.box1{
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.two{
+    /* border: 2px solid black; */
+    height: 665px;
+    background-color: #E3D8CC;
+    margin-top: 199px;
+}
+.two h1{
+    font-size: 38px;
+    position: relative;
+    left: 31px;
+    top: 35px;
+
+}
+.two h4{
+    position: relative;
+    top: 56px;
+    left: 31px;
+}
+.box2{
+    height: 319px;
+    width: 241px;
+    margin-top: 81px;
+    margin-left: 31px;
+}
+.two p{
+    font-size: 16px;
+    line-height: 23px;
+}
+.last{
+    /* border: 2px solid black; */
+    height: 100px;
+}
+.box3{
+    width: 100px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+.box4{
+    width: 155px;
+    height: 50px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 3px;
+}
+.box5{
+    width: 131px;
+    height: 50px;
+    margin-left: 24px;
+    margin-top: 22px;
+}
+.box3 p{
+
+    font-size: 13px;
+    margin-top: 10px;
+}
+.box4 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.box5 i{
+    margin: 7px;
+    margin-left: -2px;
+    padding: 3px;
+    margin-top: 10px;
+}
+nav span{
+    display: none;
+}
+.e1 p{
+    display: none;
+}
+@media  screen and (min-width:375px) {
+    .one img{
+        margin-left: 30%;
+    }
+    .line1{
+        margin-left: 141px;
+    }
+    .one{     
+    width: 340px;
+    }
+    .box1{
+        width: 340px;
+    }
+    .box4{
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width:425px) {
+    .one img{
+        margin-left: 32%;
+    }
+    .line1{
+        margin-left: 172px;
+    }
+    .one{     
+    width: 402px;
+    }
+    .box1{
+        width: 402px;
+    }
+    .box4{
+        margin-right: 35px;
+    }
+}
+@media screen and (min-width:1024px){
+    nav li{
+        display: block;
+        float: left;
+        margin: 13px;
+        font-size: 17px;
+        margin-top: 39px;
+        color: #3C3A39;
+        }
+        nav ul{
+            float: right;
+            margin-right: -387px;
+        }
+        nav{
+            padding: 20px;
+        }
+        nav h3{
+            font-size: 30px;
+            font-weight: 800;
+            margin-top: -32px;
+        }
+        nav p{   
+            font-size: 27px;
+            margin-top: -36px;
+            margin-left: 360px;
+            color: #3C3A39;
+    
+        }
+        #sq{
+            margin-top: 42px;
+        }
+        nav span{
+            display: inline;
+        }
+        .two{
+            width: 60%;
+            margin-top: 45px;
+            height: 945px;
+        }
+        .one{     
+        margin-top: 195px;
+        margin-right: 275px;
+        width: 452px;
+        height: 643px;
+        }
+        .one img{
+    
+            width: 230px;
+            height: 230px;
+            border-radius: 135px;
+            margin-left: 25%;
+        
+        }
+        .one h3{
+    
+            font-size: 32px;
+            margin-top: 41px;
+        }
+        .line1{
+    
+            margin-left: 195px;
+            margin-top: 36px;
+        }
+        .buttons{
+            /* border: 2px solid black; */
+        width: 332px;
+        height: 80px;
+        position: absolute;
+        top: 540px;
+        left: 825px;
+        }
+        .btn1{
+            height: 40px;
+        }
+        .btn2{
+            height: 40px;
+        }
+        .e1 p{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 45px;
+        color: #3C3A39;
+        }
+        .box1{
+            
+        width: 452px;
+        height: 66px;
+        margin-top: 72px;
+        }
+        .box{
+            /* border: 2px solid black; */
+            width: 390px;
+            height: 214px;
+            position: absolute;
+            left: 825px;
+            top: 298px;
+        }
+        .box h1{
+            font-size: 90px;
+        }
+        .box h4{
+    
+            font-size: 28px;
+            font-weight: normal;
+        }
+        .box2{
+            /* border: 2px solid black; */
+        width: 364px;
+        height: 375px;
+        position: absolute;
+        left: 825px;
+        top: 580px;
+        }
+        .box2 p{
+            color: #483d3d;
+        font-size: 18px;
+        line-height: 30px;
+        }
+        .box3{
+            margin-left: 922px;
+            margin-top: 57px;
+        }
+        .box4{
+            margin-right: 303px;
+            margin-top: -50px;
+        }
+        .box5{
+            margin-left: 1272px;
+            margin-top: -50px;
+        }
+        .box5 i{
+            margin-top: 2px;
+        }
+}
+@media screen and (min-width:1440px){
+    nav li{
+    display: block;
+    float: left;
+    margin: 13px;
+    font-size: 17px;
+    margin-top: 39px;
+    color: #3C3A39;
+    }
+    nav ul{
+        float: right;
+    }
+    nav{
+        padding: 20px;
+    }
+    nav h3{
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: -32px;
+    }
+    nav p{   
+        font-size: 27px;
+        margin-top: -36px;
+        margin-left: 360px;
+        color: #3C3A39;
+
+    }
+    #sq{
+        margin-top: 42px;
+    }
+    nav span{
+        display: inline;
+    }
+    .two{
+        width: 42%;
+        margin-top: 45px;
+        height: 945px;
+    }
+    .one{     
+    margin-top: 195px;
+    margin-right: 755px;
+    width: 452px;
+    height: 643px;
+    }
+    .one img{
+
+        width: 230px;
+        height: 230px;
+        border-radius: 135px;
+        margin-left: 25%;
+    
+    }
+    .one h3{
+
+        font-size: 32px;
+        margin-top: 41px;
+    }
+    .line1{
+
+        margin-left: 195px;
+        margin-top: 36px;
+    }
+    .buttons{
+        /* border: 2px solid black; */
+    width: 332px;
+    height: 80px;
+    position: absolute;
+    top: 540px;
+    left: 825px;
+    }
+    .btn1{
+        height: 40px;
+    }
+    .btn2{
+        height: 40px;
+    }
+    .e1 p{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 45px;
+    color: #3C3A39;
+    }
+    .box1{
+        
+    width: 452px;
+    height: 66px;
+    margin-top: 72px;
+    }
+    .box{
+        /* border: 2px solid black; */
+        width: 390px;
+        height: 214px;
+        position: absolute;
+        left: 825px;
+        top: 298px;
+    }
+    .box h1{
+        font-size: 90px;
+    }
+    .box h4{
+
+        font-size: 28px;
+        font-weight: normal;
+    }
+    .box2{
+        /* border: 2px solid black; */
+    width: 364px;
+    height: 375px;
+    position: absolute;
+    left: 825px;
+    top: 580px;
+    }
+    .box2 p{
+        color: #483d3d;
+    font-size: 18px;
+    line-height: 30px;
+    }
+    .box3{
+        margin-left: 922px;
+        margin-top: 57px;
+    }
+    .box4{
+        margin-right: 303px;
+        margin-top: -50px;
+    }
+    .box5{
+        margin-left: 1272px;
+        margin-top: -50px;
+    }
+    .box5 i{
+        margin-top: 2px;
+    }
+}

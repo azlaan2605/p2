@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav li{
+    display: none;
+}
+nav{
+    /* border: 2px solid black; */
+    height: 100px;
+}
+.one{
+    /* border: 2px solid black;  */
+    height: 400px;
+    width: 300px;
+    float: right;
+    background-color: #F4ECE6;
+}
+nav h3{
+    margin-left: 51px;
+    margin-top: -22px;
+    font-size: 21px;
+}
+nav p{
+    margin-left: 22px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+#sq{
+    margin-top: 31px;
+    margin-left: 22px;
+}
+nav span{
+    display: none;
+}
+.one{
+    /* border: 2px solid black; */
+    height: 1728px;
+    width: 100%;
+}
+.one h1{  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 800;
+}
+.one i{
+    position: relative;
+    top: 34px;
+    left: 21px;
+}
+.box{
+    /* border: 2px solid black; */
+    width: 298px;
+    height: 265px;
+    margin: 18px;
+    margin-top: 44px;
+    background-color: white;
+}
+#main-box{
+    margin: 0px;
+    width: 100%;
+    margin-top: 37px;
+    height: 300px;
+}
+.box p:first-child{
+    text-align: center;
+    line-height: 28px;
+}
+.vl { 
+    border-left: 10px solid #0050FF;
+    height: 42px;
+    margin-top: 16px;
+  }
+  .box h4{
+      padding: 10px;
+  }
+  .box img{
+      width: 298px;
+      height: 182px;
+      margin-top: 37px;
+  }
+  .last{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 1818px;
+}
+.box3{
+    
+    width: 100px;
+    height: 50px;
+    margin-left: 29px;
+    margin-top: 30px;
+}
+.box4{
+    
+    width: 155px;
+    height: 50px;
+    float: right;
+    margin-top: -50px;
+    margin-right: -146px;
+}
+.box5{
+    width: 131px;
+    height: 50px;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+.box3 p{
+
+    font-size: 13px;
+    margin-top: 10px;
+}
+.box4 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.box5 i{
+    margin: 7px;
+    margin-left: -2px;
+    padding: 3px;
+    margin-top: 10px;
+}
+@media screen and (min-width:375px) {
+    #main-box{
+        width: 100%;
+
+    }
+    .box img{
+        width: 353px;
+    }
+    .one i{
+        left: 64px;
+    }
+    #main-box p{
+        line-height: 37px;
+    }
+}
+@media screen and (min-width:425px){
+    #main-box{
+        width: 100%;
+    }
+    .one i{
+left: 89px;
+    }
+    .box{
+width: 404px;
+    }
+    .box img{
+width: 404px;
+    }
+
+}
+@media screen and (min-width:768px){
+    .box{
+       margin-left: 25%;
+    }
+    #main-box p{
+       line-height: 64px;
+    }
+    .one i{
+       left: 258px;
+    }
+}
+@media screen and (min-width:1024px) {
+    nav li{
+        display: block;
+        float: left;
+        margin: 13px;
+        font-size: 17px;
+        margin-top: 25px;
+        color: #3C3A39;
+        }
+        nav ul{
+            float: right;
+        }
+        nav{
+            padding: 20px;
+        }
+        nav h3{
+            font-size: 30px;
+            font-weight: 800;
+            margin-top: -33px;
+        }
+        nav p{   
+            font-size: 21px;
+            margin-top: -30px;
+            margin-left: 360px;
+            color: #3C3A39;
+    
+        }
+        #sq{
+            margin-top: 22px;
+        }
+        nav span{
+            display: inline;
+        }
+        .one i{
+            left: 388px;
+        }
+        .box{
+             margin-left: 30%;
+        }
+        /* .box3{       
+            width: 100px;
+            height: 50px;
+            margin-left: 764px;
+            margin-top: 30px;
+        }
+        .box4{
+            margin-left: 326px;
+            margin-top: -50px;
+        }
+        .box5{
+            margin-left: 623px;
+            margin-top: -50px;
+        }
+        .box5 i{
+            margin-top: 2px;
+        } */
+        .box4{
+            margin-right: -186px;
+        }
+        .box3{
+            margin-top: 361px;
+        }
+        .box5{
+            margin-left: 197px;
+            margin-top: -52px;
+        }
+        .last{
+            top: 1506px;
+        }
+}
+@media screen and (min-width:1440px){
+    .one i{
+    left: 628px;
+    }
+    .box{
+    margin-left: 37%;
+    }
+    /* .box3{       
+        width: 100px;
+        height: 50px;
+        margin-left: 997px;
+        margin-top: 30px;
+    }
+    .box4{
+        margin-left: 326px;
+        margin-top: -50px;
+    }
+    .box5{
+        margin-left: 1118px;
+        margin-top: -50px;
+    }
+    .box5 i{
+        margin-top: 2px; */
+        .box3{
+            margin-top: 361px;
+        }
+        .box5{
+            margin-left: 197px;
+            margin-top: -52px;
+        }
+        .last{
+            top: 1506px;
+        }
+}
