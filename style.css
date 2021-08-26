@@ -4,12 +4,6 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.cc{
-    position: absolute;
-    left: 91px;
-    top: 397px;
-}
-
    .btn1:hover{
     cursor: pointer;
     background-color: #F4ECE6;
