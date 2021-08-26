@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-a{
-    text-decoration: none;
-    color: black;
-
+.cc{
+    position: absolute;
+    left: 91px;
+    top: 397px;
 }
-/* .btn1:hover{
+
+   .btn1:hover{
     cursor: pointer;
     background-color: #F4ECE6;
     color: black;
@@ -20,7 +21,7 @@ a{
     background-color: #0050FF;
     color: white;
     border: none;
-} */
+} 
 li:hover{
     color: #0050FF;
 }
@@ -221,7 +222,7 @@ nav span{
     }
 }
 @media screen and (min-width:1024px){
-    .btn1:hover{
+    /* .btn1:hover{
         cursor: pointer;
         background-color: #F4ECE6;
         color: black;
@@ -232,7 +233,7 @@ nav span{
         background-color: #0050FF;
         color: white;
         border: none;
-    }
+    } */
     nav li{
         display: block;
         float: left;
@@ -369,7 +370,7 @@ nav span{
         }
 }
 @media screen and (min-width:1440px){
-    .btn1:hover{
+    /* .btn1:hover{
         cursor: pointer;
         background-color: #F4ECE6;
         color: black;
@@ -380,7 +381,7 @@ nav span{
         background-color: #0050FF;
         color: white;
         border: none;
-    }
+    } */
     nav li{
     display: block;
     float: left;
