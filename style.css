@@ -14,7 +14,7 @@ nav{
 .one{
     /* border: 2px solid black;  */
     height: 400px;
-    width: 317px;
+    width: 322px;
     float: right;
     margin-right: -27px;
     background-color: #F4ECE6;
@@ -79,7 +79,7 @@ nav p{
 
 .box1{
     /* border: 2px solid black; */
-    width: 300px;
+    width: 322px;
     height: 40px;
     float: right;
     margin-top: 31px;
@@ -168,10 +168,10 @@ nav span{
         margin-left: 141px;
     }
     .one{     
-    width: 372px;
+    width: 380px;
     }
     .box1{
-        width: 340px;
+        width: 380px;
     }
     .box4{
         margin-right: 15px;
@@ -185,10 +185,10 @@ nav span{
         margin-left: 172px;
     }
     .one{     
-    width: 422px;
+    width: 430px;
     }
     .box1{
-        width: 402px;
+        width: 430px;
     }
     .box4{
         margin-right: 35px;
