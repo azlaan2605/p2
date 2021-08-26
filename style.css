@@ -160,6 +160,9 @@ nav span{
 .e1 p{
     display: none;
 }
+.a-link{
+    
+}
 @media  screen and (min-width:375px) {
     .one img{
         margin-left: 30%;
