@@ -52,7 +52,7 @@ nav p{
     border: none;
     height: 3px;
     background-color: #0050FF;
-    margin-left: 119px;
+    margin-left: 131px;
     margin-top: 16px;
 }
 .buttons{
@@ -161,14 +161,15 @@ nav span{
     display: none;
 }
 .a-link{
-    
+    display: block;
+
 }
 @media  screen and (min-width:375px) {
     .one img{
         margin-left: 30%;
     }
     .line1{
-        margin-left: 141px;
+        margin-left: 161px;
     }
     .one{     
     width: 380px;
@@ -185,7 +186,7 @@ nav span{
         margin-left: 32%;
     }
     .line1{
-        margin-left: 172px;
+        margin-left: 186px;
     }
     .one{     
     width: 430px;
@@ -354,8 +355,8 @@ nav span{
         margin-top: -32px;
     }
     nav p{   
-        font-size: 27px;
-        margin-top: -36px;
+        font-size: 20px;
+        margin-top: -28px;
         margin-left: 360px;
         color: #3C3A39;
 
