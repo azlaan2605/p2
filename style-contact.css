@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+li:hover{
+    color: #0050FF;
 }
 nav li{
     display: none;
@@ -22,6 +25,7 @@ nav h3{
     margin-left: 51px;
     margin-top: -22px;
     font-size: 21px;
+    font-family: sans-serif;
 }
 nav p{
     margin-left: 22px;
@@ -169,7 +173,7 @@ margin-right: -228px;
         }
         nav p{   
             font-size: 20px;
-            margin-top: -28px;
+            margin-top: -31px;
             margin-left: 360px;
             color: #3C3A39;
         }
