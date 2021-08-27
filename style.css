@@ -23,6 +23,7 @@ li:hover{
 nav li{
     display: none;
 }
+
 nav{
     /* border: 2px solid black; */
     height: 100px;
@@ -114,20 +115,21 @@ nav p{
 .two h1{
     font-size: 38px;
     position: relative;
-    left: 31px;
+    left: 13px;
     top: 35px;
 
 }
 .two h4{
     position: relative;
     top: 56px;
-    left: 31px;
+    /* left: 31px; */
+    left: 13px;
 }
 .box2{
     height: 319px;
     width: 241px;
     margin-top: 81px;
-    margin-left: 31px;
+    margin-left: 13px;
 }
 .two p{
     font-size: 16px;
@@ -181,7 +183,7 @@ nav span{
     display: block;
 
 }
-@media  screen and (min-width:375px) {
+/* @media  screen and (min-width:375px) {
     .one img{
         margin-left: 30%;
     }
@@ -197,8 +199,8 @@ nav span{
     .box4{
         margin-right: 15px;
     }
-}
-@media screen and (min-width:425px) {
+} */
+/* @media screen and (min-width:425px) {
     .one img{
         margin-left: 32%;
     }
@@ -214,7 +216,7 @@ nav span{
     .box4{
         margin-right: 35px;
     }
-}
+} */
 @media screen and (min-width:1024px){
     /* .btn1:hover{
         cursor: pointer;
