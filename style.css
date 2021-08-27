@@ -35,9 +35,9 @@ nav{
     float: right;
     margin-right: -27px;
     background-color: #F4ECE6;
-
-
+    min-width: 425px;
 }
+
 nav h3{
     margin-left: 51px;
     margin-top: -22px;
@@ -57,7 +57,7 @@ nav p{
     width: 143px;
     height: 148px;
     border-radius: 70px;
-    margin-left: 25%;
+    margin-left: 33%;
     margin-top: 30px;
 }
 .one h3{
@@ -70,7 +70,7 @@ nav p{
     border: none;
     height: 3px;
     background-color: #0050FF;
-    margin-left: 131px;
+    margin-left: 184px;
     margin-top: 16px;
 }
 .buttons{
@@ -105,6 +105,7 @@ nav p{
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
+    min-width: 425px;
 }
 .two{
     /* border: 2px solid black; */
@@ -115,7 +116,7 @@ nav p{
 .two h1{
     font-size: 38px;
     position: relative;
-    left: 13px;
+    left: 31px;
     top: 35px;
 
 }
@@ -123,13 +124,13 @@ nav p{
     position: relative;
     top: 56px;
     /* left: 31px; */
-    left: 13px;
+    left: 31px;
 }
 .box2{
     height: 319px;
     width: 241px;
     margin-top: 81px;
-    margin-left: 13px;
+    margin-left: 31px;
 }
 .two p{
     font-size: 16px;
